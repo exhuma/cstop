@@ -147,7 +147,11 @@ def main():
 
     args = parse_args()
 
-    print('Press "q" to quit, "p" to pause/resume the active counter')
+    print('=== Special Characters ===')
+    print('    q: quit')
+    print('    p: pause/resume the active counter')
+    print('    *: remove (reset) the active counter')
+    print('==========================\n')
     print('Press any other button to start a timer with that name')
     print('\nAll keys (except "p" and "q") are case *sensitive*!')
     print('... so you can have a timer "T" and "t"')
